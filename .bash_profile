@@ -39,6 +39,12 @@ reload_bash() {
   source ~/.bash_profile
 }
 
+fgit() {
+  git add .
+  git commit $1
+  git push
+}
+
 # we don't speak about this command
 fuckyou() {
   echo "Fuck you too $(whoami)!"

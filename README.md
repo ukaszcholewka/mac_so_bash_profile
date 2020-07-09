@@ -17,12 +17,12 @@ Don't forget to put source in `.bash_profile` and features in `README.md`  Keep 
 5. `update_bash` command for downloading current version of file. Warning, autoupdate is enabled
 
 ### Commands
-`ll` Alias to `ls -la`  
-`gh` GUI git log in console  
-`hs $name` Hostory of command $name
-`targz ./$file` make tar.gz from $file  
-`untargz ./$file` will unpack tar.gz  
-`mkcd $dirName` will create dir and cd into  
+1. `ll` Alias to `ls -la`
+2. `gh` GUI git log in console
+3. `hs $name` Hostory of command $name
+4. `targz ./$file` make tar.gz from $file
+5. `untargz ./$file` will unpack tar.gz
+6. `mkcd $dirName` will create dir and cd into
 
 
 ### Updating
