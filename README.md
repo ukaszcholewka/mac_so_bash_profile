@@ -12,15 +12,16 @@ Don't forget to put source in `.bash_profile` and features in `README.md`  Keep 
 ## Features
 1. Colors
 2. Commands
-3. git autocomplete
+3. Git autocomplete
 4. `reload_bash` command for future updates
 5. `update_bash` command for downloading current version of file. Warning, autoupdate is enabled
 
 ### Commands
 `ll` Alias to `ls -la`  
-`gc` git checkout  
-`gs` git status  
 `gh` GUI git log in console  
+`targz ./$file` make tar.gz from $file  
+`untargz ./$file` will unpack tar.gz  
+`mkcd $dirName` will create dir and cd into  
 
 
 ### Updating
