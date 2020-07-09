@@ -40,15 +40,13 @@ reload_bash() {
 }
 
 fgit() {
-  git add .
   local msg="${1:?Missing commit message!}"
-  git commit -m "$msg"
-  git push
+  git add . && git commit -m "$msg" && git push
 }
 
 # we don't speak about this command
 fuckyou() {
-  echo "Fuck you too $(whoami)!"
+  echo "Fuck you too $(whoami)!!"
 }
 
 # https://jef.works/blog/2017/08/13/5-useful-bash-aliases-and-functions/
