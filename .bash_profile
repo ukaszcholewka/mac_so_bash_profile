@@ -46,7 +46,7 @@ fgit() {
 
 # we don't speak about this command
 fuckyou() {
-  echo "Fuck you too $(whoami)!!"
+  echo "Fuck you too $(whoami)!"
 }
 
 # https://jef.works/blog/2017/08/13/5-useful-bash-aliases-and-functions/
