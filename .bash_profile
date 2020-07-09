@@ -41,7 +41,7 @@ reload_bash() {
 
 fgit() {
   git add .
-  git commit $1
+  git commit -m "$($1)"
   git push
 }
 

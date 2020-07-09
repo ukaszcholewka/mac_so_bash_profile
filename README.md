@@ -23,6 +23,7 @@ Don't forget to put source in `.bash_profile` and features in `README.md`  Keep 
 4. `targz ./$file` make tar.gz from $file
 5. `untargz ./$file` will unpack tar.gz
 6. `mkcd $dirName` will create dir and cd into
+7. `fgit $message` git add . && git commmit -m $message && git push
 
 
 ### Updating
