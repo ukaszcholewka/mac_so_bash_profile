@@ -9,6 +9,10 @@ alias ls='ls -GFh'
 alias ll='ls -la'
 
 # https://apple.stackexchange.com/questions/55875/git-auto-complete-for-branches-at-the-command-line
+if [ ! -f ~/.git-completion.bash ]; then
+    curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+fi
+
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
