@@ -19,6 +19,7 @@ Don't forget to put source in `.bash_profile` and features in `README.md`  Keep 
 ### Commands
 `ll` Alias to `ls -la`  
 `gh` GUI git log in console  
+`hs $name` Hostory of command $name
 `targz ./$file` make tar.gz from $file  
 `untargz ./$file` will unpack tar.gz  
 `mkcd $dirName` will create dir and cd into  
