@@ -41,13 +41,20 @@ reload_bash() {
 
 fgit() {
   git add .
-  git commit -m "$*"
-  git push
+
+  local msg="${1:?Missing commit message!}"
+  shift
+  if (( $# > 0 )) ; then
+    git commit -m "$msg" $*
+    git push
+  else
+    echo "Missing files to add!"
+  fi
 }
 
 # we don't speak about this command
 fuckyou() {
-  echo "Fuck you too $(whoami)!"
+  echo "Fuck you too $(whoami)!!"
 }
 
 # https://jef.works/blog/2017/08/13/5-useful-bash-aliases-and-functions/
