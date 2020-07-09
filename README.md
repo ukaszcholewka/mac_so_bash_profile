@@ -3,7 +3,7 @@
 You can use this file however you like.
 
 ### Feel free to contribute.
-Don't forget to put source in `.bash_profile` and features in `README.md`  Keep `probably` at the end of file.
+Don't forget to put source in `.bash_profile` and features in `README.md`  Keep `update_bash` command at the end of file.
 
 ## How to use
 1. Download `.bash_profile` and put it in your home dir or run  `curl https://raw.githubusercontent.com/ukaszcholewka/mac_so_bash_profile/master/.bash_profile -o ~/.bash_profile`. Warning, this command will overwrite existing file.
