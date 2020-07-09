@@ -32,9 +32,9 @@ fuckyou() {
   echo "Fuck you too $(whoami)!"
 }
 
+# https://github.com/ukaszcholewka/
 update_bash() {
   curl https://raw.githubusercontent.com/ukaszcholewka/mac_so_bash_profile/master/.bash_profile -o ~/.bash_profile
-  source ~/.bash_profile
 }
 
 update_bash

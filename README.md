@@ -24,4 +24,4 @@ Don't forget to put source in `.bash_profile` and features in `README.md`  Keep 
 
 
 ### Updating
-If you want to disable auto updates, find and delete line with `update_bash` command (probably at the end of file)
+If you want to disable auto updates, find and delete line with `update_bash` command (probably at the end of file). To avoid overlap, changes will apply in next session.
