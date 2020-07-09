@@ -55,7 +55,9 @@ untargz() {
 }
 
 # https://jef.works/blog/2017/08/13/5-useful-bash-aliases-and-functions/
-mkcd() { mkdir -p $1; cd $1 }
+mkcd() {
+  mkdir -p $1; cd $1
+}
 
 # https://github.com/ukaszcholewka/
 update_bash() {
