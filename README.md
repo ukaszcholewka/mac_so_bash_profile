@@ -3,10 +3,10 @@
 You can use this file however you like.
 
 ### Feel free to contribute.
-Don't forget to put source in `.bash_profile` and features in `README.md`
+Don't forget to put source in `.bash_profile` and features in `README.md`  Keep `probably` at the end of file.
 
 ## How to use
-1. Download `.bash_profile` and put it in your home dir.
+1. Download `.bash_profile` and put it in your home dir or run  `curl https://raw.githubusercontent.com/ukaszcholewka/mac_so_bash_profile/master/.bash_profile -o ~/.bash_profile`. Warning, this command will overwrite existing file.
 2. Reload file using `source ~/.bash_profile` command.
 
 ## Features
@@ -14,9 +14,14 @@ Don't forget to put source in `.bash_profile` and features in `README.md`
 2. Commands
 3. git autocomplete
 4. `reload_bash` command for future updates
+5. `update_bash` command for downloading current version of file. Warning, autoupdate is enabled
 
 ### Commands
 `ll` Alias to `ls -la`  
 `gc` git checkout  
 `gs` git status  
 `gh` GUI git log in console  
+
+
+### Updating
+If you want to disable auto updates, find and delete line with `update_bash` command (probably at the end of file)
