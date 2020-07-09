@@ -6,4 +6,5 @@ You can use this file however you like.
 Don't forget to put source
 
 ## How to use:
-Download `.bash_profile` and put it in your home dir. 
+1. Download `.bash_profile` and put it in your home dir.
+2. Reload file using `source ~/.bash_profile` command.
