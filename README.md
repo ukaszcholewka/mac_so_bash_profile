@@ -16,7 +16,7 @@ Don't forget to put source in `.bash_profile` and features in `README.md`
 4. `reload_bash` command for future updates
 
 ### Commands
-`ll` Alias to `ls -la`
-`gc` git checkout
-`gs` git status
-`gh` GUI git log in console
+`ll` Alias to `ls -la`  
+`gc` git checkout  
+`gs` git status  
+`gh` GUI git log in console  
