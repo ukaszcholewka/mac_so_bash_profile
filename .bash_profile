@@ -42,7 +42,7 @@ reload_bash() {
 fgit() {
   git add .
   local msg="${1:?Missing commit message!}"
-  git commit -m "$msg" $*
+  git commit -m "$msg"
   git push
 }
 
