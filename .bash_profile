@@ -7,6 +7,8 @@ alias ls='ls -GFh'
 
 # https://github.com/ukaszcholewka/
 alias ll='ls -la'
+alias gc='git chechout'
+alias gh="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 # https://apple.stackexchange.com/questions/55875/git-auto-complete-for-branches-at-the-command-line
 if [ ! -f ~/.git-completion.bash ]; then
