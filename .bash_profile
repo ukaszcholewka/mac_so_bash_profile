@@ -1,3 +1,9 @@
+# https://github.com/ukaszcholewka/mac_so_bash_profile
+# Author: Łukasz Cholewka - @fckueve
+# License: MIT
+# Contributors: https://github.com/ukaszcholewka/mac_so_bash_profile/graphs/contributors
+
+
 # https://osxdaily.com/2013/02/05/improve-terminal-appearance-mac-os-x/
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
 export CLICOLOR=1
